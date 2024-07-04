@@ -42,15 +42,15 @@ export default async function Home() {
               </Avatar>
               <div>
                 <CardTitle>{recipe.title}</CardTitle>
-                <CardDescription>{recipe.time} mins to cook.</CardDescription>
+                <CardDescription>{recipe.time} mins</CardDescription>
               </div>
             </CardHeader>
             <CardContent>
               <p>{recipe.description}</p>
             </CardContent>
             <CardFooter className="flex justify-between">
-              <Button>View Recipe</Button>
-              {recipe.vegan && <Badge variant="outline">Vegan!</Badge>}
+              <Button>Learn more</Button>
+              <p className='text-sm px-8'>Imaginative Energy: <Badge variant="outline">{recipe.imaginative_energy}</Badge></p>
             </CardFooter>
           </Card>
         ))}
