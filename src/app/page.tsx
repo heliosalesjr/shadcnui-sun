@@ -22,8 +22,14 @@ interface Recipe {
 async function getRecipes(): Promise<Recipe[]> {
   const result = await fetch('http://localhost:4000/recipes')
 
+  //delay response time
+  await new Promise((resolve) => setTimeout(resolve, 3000))
+
   return result.json()
 }
+
+
+
 
 export default async function Home() {
   const recipes = await getRecipes()
@@ -50,7 +56,7 @@ export default async function Home() {
             </CardContent>
             <CardFooter className="flex justify-between">
               <Button>Learn more</Button>
-              <p className='text-sm px-8'>Imaginative Energy: <Badge variant="outline">{recipe.imaginative_energy}</Badge></p>
+              <span className='text-sm px-8'>Imaginative Energy: <Badge variant="outline">{recipe.imaginative_energy}</Badge></span>
             </CardFooter>
           </Card>
         ))}

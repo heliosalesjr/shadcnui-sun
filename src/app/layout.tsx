@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import { ModeToggle } from "@/components/toggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <h1>How to get to the sun</h1>
-        </nav>
-        {children}
+        <ThemeProvider>
+          <nav className="flex space-x-[25px]">
+            <h1>How to get to the sun</h1>
+            <ModeToggle/>
+          </nav>
+          {children}
+        </ThemeProvider>
+        
       </body>
     </html>
   );

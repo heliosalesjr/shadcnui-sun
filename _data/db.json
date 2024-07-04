@@ -11,7 +11,7 @@
     {
       "id": "2",
       "title": "Beam of Light",
-      "image": "beam_of_light.jpg",
+      "image": "beam.jpg",
       "time": 5,
       "description": "Travel on a sunbeam, riding the golden rays directly to the heart of the sun.",
       "imaginative_energy": "medium"
@@ -19,7 +19,7 @@
     {
       "id": "3",
       "title": "Solar Whisper",
-      "image": "solar_whisper.jpg",
+      "image": "sun.jpg",
       "time": 15,
       "description": "Listen to the whispers of the sun and let its secret path guide you.",
       "imaginative_energy": "high"
@@ -35,7 +35,7 @@
     {
       "id": "5",
       "title": "Wings of Icarus",
-      "image": "wings_of_icarus.jpg",
+      "image": "icarus.jpg",
       "time": 30,
       "description": "Craft wings of wax and feathers, embracing the daring spirit of Icarus.",
       "imaginative_energy": "high"
@@ -43,7 +43,7 @@
     {
       "id": "6",
       "title": "Golden Chariot",
-      "image": "golden_chariot.jpg",
+      "image": "golden_chariot.png",
       "time": 25,
       "description": "Ride the golden chariot of Apollo, pulled by flaming horses across the sky.",
       "imaginative_energy": "medium"
@@ -51,7 +51,7 @@
     {
       "id": "7",
       "title": "Dreamer's Journey",
-      "image": "dreamers_journey.jpg",
+      "image": "dreamy.jpg",
       "time": 12,
       "description": "Embark on a dreamer's journey, where reality bends and the sun awaits at the horizon.",
       "imaginative_energy": "low"
@@ -59,7 +59,7 @@
     {
       "id": "8",
       "title": "Aurora's Embrace",
-      "image": "auroras_embrace.jpg",
+      "image": "aurora.jpg",
       "time": 18,
       "description": "Let the gentle embrace of Aurora Borealis carry you to the sun's warm glow.",
       "imaginative_energy": "low"
@@ -67,7 +67,7 @@
     {
       "id": "9",
       "title": "Celestial Bridge",
-      "image": "celestial_bridge.jpg",
+      "image": "bridge.jpg",
       "time": 22,
       "description": "Walk the celestial bridge, a radiant arc that spans the heavens to the sun.",
       "imaginative_energy": "medium"
