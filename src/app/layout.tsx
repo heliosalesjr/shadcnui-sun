@@ -19,7 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <nav className="flex space-x-[25px]">
             <h1>How to get to the sun</h1>
             <ModeToggle/>
